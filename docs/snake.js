@@ -56,7 +56,7 @@ function Snake() {
 
     //to constrain snake getting off the grid
     this.x = constrain(this.x, 0, width - scl);
-    this.x = constrain(this.x, 0, height - scl);
+    this.y = constrain(this.y, 0, height - scl);
   };
 
   this.show = function () {
